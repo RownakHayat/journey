@@ -23,9 +23,11 @@
 */
 .top{
     background-color: rgb(9, 214, 214);
-    position: sticky;
+    position: fixed;
     top: 0px;
+    width: 100%;
     height: 5rem;
+    z-index: 9999;
 }
 
 .top-header{
@@ -35,7 +37,10 @@
     color: white;
     
 }
-
+.left-sec, .location{
+    display: flex;
+    padding: 5px;
+}
 .go-text{
     color: rgb(9, 214, 214);
 }
@@ -137,12 +142,12 @@
 }
 .slider-holder{
     position: absolute;
-    top: 50px;
-    top: 80px;
-    z-index: -1;
     background-size: cover;
 }
- 
+ .banner-section{
+    width: 100%;
+
+ }
 .find-section{
     height: 5rem;
     opacity: .6;
